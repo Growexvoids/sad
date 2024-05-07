@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+
+.box {
+    height: 100vh;
+    background-image: url("./img/Vector.png"), url("./img/Vector1.png");
+    background-repeat: no-repeat;
+    background-position: right top, left bottom;
+    background-size: 20%, 40%;
+}
+
+header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    width: 209px;
+    height: 41px;
+
+
+}
+
+.menus {
+    display: flex;
+    gap: 58px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+    text-shadow: 0px 7px 4px #371AAB99;
+
+}
+
+.ota img {
+    width: 550px;
+    height: 509px;
+    margin-top: 76px;
+
+}
+
+.soya9 {
+    width: 133px;
+    height: 133px;
+    border-radius: 5px 0px 0px 0px;
+    box-shadow: 0px 8px 24px 0px #2FC63C;
+
+
+
+}
+.soya1{
+    width: 133px;
+    height: 133px;
+    border-radius: 5px 0px 0px 0px;
+    box-shadow: 0px 7px 29px 0px #64646F33;
+
+}
+.soya2{width: 133px;
+    height: 133px;
+    border-radius: 5px 0px 0px 0px;
+    box-shadow: 1.95px 1.95px 2.6px 0px #00000026;
+}
+    
+.soya3{width: 133px;
+    height: 133px;
+    border-radius: 5px 0px 0px 0px;
+    box-shadow: 0px 5px 15px 0px #00000059;
+}
+.soya4{width: 133px;
+    height: 133px;
+    border-radius: 5px 0px 0px 0px;
+    box-shadow: 0px 1px 4px 0px #000000AB;
+}
+.soya5{width: 133px;
+    height: 133px;
+    border-radius: 5px 0px 0px 0px;
+    box-shadow: 0px 3px 8px 0px #FF0000;
+}
+.soya6{width: 133px;
+    height: 133px;
+    border-radius: 5px 0px 0px 0px;
+    box-shadow: 0px 8px 24px 0px #007FFDEB;
+}
+.soya7{width: 133px;
+    height: 133px;
+    border-radius: 5px 0px 0px 0px;
+    box-shadow: 0px 7px 36px 0px #64646FA8;
+}
+.soya8{width: 133px;
+    height: 133px;
+    border-radius: 5px 0px 0px 0px;
+    box-shadow: 1.95px 1.95px 2.6px 0px #00000026;
+}
+    .ota{
+        display: flex;
+        gap: 57px;
+        height: 509px;
+    }
+    .soyalar-ota{
+        display: flex;
+        margin-top: 76px;
+        gap: 97px;
+        flex-wrap: wrap;
+        
+    }
+    header img,ul{
+        margin-top: 118px;
+    }
